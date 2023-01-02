@@ -44,7 +44,7 @@ export const createDiscussion = async (token: string, repoId: string, categoryId
       variables: {
         repositoryId: repoId,
         categoryId: categoryId,
-        title: slug,
+        title: articleTitle,
         body: `${articleTitle}
         
 [${articleUrl}](${articleUrl})`,

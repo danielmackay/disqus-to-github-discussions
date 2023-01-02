@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dist && tsc && node dist/index.js"
+    "start": "rm -rf dist && tsc && node dist/index.js",
+    "start2": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "",
